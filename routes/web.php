@@ -26,3 +26,8 @@ Route::middleware([
         return view('dashboard');
     })->name('dashboard');
 });
+
+
+// Route::get('/roles', function () {
+//     return view('admin.index');
+// });
